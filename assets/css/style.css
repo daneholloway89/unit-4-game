@@ -1,0 +1,111 @@
+body {
+background-image: url("../images/space.jpg")
+}
+
+header {
+  border: 7px solid rgb(248, 248, 248);
+  height: 250px;
+  width: 700px;
+  margin: 20px auto;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  
+  
+}
+
+ol {
+  text-align: left;
+}
+
+#line {
+  border: 1px solid white;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.random-result{
+  border: 7px solid rgb(248, 248, 248);
+  height: 200px;
+  width: 275px;
+  margin: 10px 10px auto;
+  color: white;
+  background-color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  float: left;
+}
+
+.wins {
+  border: 7px solid rgb(248, 248, 248);
+  height: 200px;
+  width: 275px;
+  margin: 10px 10px auto;
+  color:purple;
+  background-color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  float: left;
+  font-weight: 700;
+}
+
+#user-score {
+  border: 7px solid rgb(248, 248, 248);
+  height: 200px;
+  width: 275px;
+  /* padding: 25px; */
+  margin: 10px 10px auto;
+  color:purple;
+  background-color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.container1 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.buttons {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center; 
+}
+
+.click-buttons {
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 90px;
+}
+
+.boxes {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#button {
+  color: aliceblue;
+  background-color: rgb(52, 17, 85);
+  padding: 10px;
+  margin-bottom: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#random-result {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  
+}

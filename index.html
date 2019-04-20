@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  </head>
+
+  <body>
+
+    <div class="container1">
+      <header>
+        <h1 id="heading1">Let's Play Crystal Count!</h1>
+        <br>
+        <h3 id="heading2">A random counter game that's almost fun!</h3>
+        <br>
+        <h3 class="directions">Directions</h3>
+        <div id="line"></div>
+        <br>
+        <ol class="directions">
+            <li>- You will be given a random number to start the game.</li>
+            <li>- There are 4 crystals to choose from.</li>
+            <li>- Clicking each crystal will add a certain amount of points to your total score.</li>
+            <li>- You win by adding your total score to equal the random number provided.</li>
+            <li>- The value of each crystal is hidden from you until you click the crystal.</li>
+            <li>- The value of the 4 crystals will change each time the game resets.</li>
+          </ol>
+      </header>
+    </div>
+    <div class="buttons">
+      <img src="assets/images/astronaut.png" class="click-buttons" id="astro" alt="astronaut" />
+      <img src="assets/images/alien_pixel.png" class="click-buttons" id="alien" alt="alien">
+      <img src="assets/images/alien_abduction.png" class="click-buttons" id="ufo" alt="ufo">
+      <img src="assets/images/space_shuttle.png" class="click-buttons" id="shuttle" alt="shuttle">
+      
+      <!-- <button type="button" class="click-buttons">Click Me!</button>
+      <button type="button" class="click-buttons">Click Me!</button>
+      <button type="button" class="click-buttons">Click Me!</button>
+      <button type="button" class="click-buttons">Click Me!</button> -->
+    </div>
+
+    <div class="boxes">
+    
+      <div class="random-result">
+          <button id="random-button">Create Random Number</button>
+          <br>
+          <input id="random-result" value="" />
+      </div>
+      <div id="user-score">Your total score is</div>
+      <div class="wins">
+        Wins:
+        <br>
+        <br>
+        <br>
+        <br>
+        Losses:
+
+      </div>
+      
+      
+
+    </div>
+    
+  <script src="assets/javascript/game.js"></script>
+  </body>
+
+
+  </html>
