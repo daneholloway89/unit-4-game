@@ -63,10 +63,10 @@ window.addEventListener('DOMContentLoaded', () => {
       alert("You Lose!");
     };
 
-    // if (userScore === Number(document.getElementById("random-result").value) ) {
-    //   console.log("You win!");
-    //   alert("You Win!");
-    // };
+    else (userScore === Number(document.getElementById("random-result").value) ) {
+      console.log("You win!");
+      alert("You Win!");
+    };
 
 
 
