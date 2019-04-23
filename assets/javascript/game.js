@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (userScore > Number(document.getElementById("random-result").value) ) {
       console.log("You lose!");
-      alert("You Win!");
+      alert("You Lose!");
     };
 
     // if (userScore === Number(document.getElementById("random-result").value) ) {
